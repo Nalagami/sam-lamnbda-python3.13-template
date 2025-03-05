@@ -13,6 +13,5 @@ jobs:
           python-version: "3.13"
       - uses: aws-actions/setup-sam@v2
         with:
-          version: "latest"
           use-installer: true
       - run: sam validate
